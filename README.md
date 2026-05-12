@@ -2,12 +2,9 @@
 <h3>Name: Chilamakuri Karthik Naidu </h3>
 <h3>Registration Number: 212224060051 </h3>
 
-
-<h3>AIM:</h3>
-<br>
+<h3>AIM</h3>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
-<br>
-<h3>Theory</h3>
+<h3>THEORY</h3>
 <h3>Medicine prescribing agent:</h3>
 <p>Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.</p>
 <hr>
@@ -30,15 +27,15 @@
 </table>
 <hr>
 <H3>DESIGN STEPS</H3>
-<h3>STEP 1:Identifying the input:</h3>
+<h3>STEP 1: Identifying the input</h3>
 <p>Temperature from patients, Location.</p>
-<h3>STEP 2:Identifying the output:</h3>
+<h3>STEP 2: Identifying the output</h3>
 <p>Prescribe medicine if the patient in a random has a fever.</p>
-<h3>STEP 3:Developing the PEAS description:</h3>
+<h3>STEP 3: Developing the PEAS description</h3>
 <p>PEAS description is developed by the performance, environment, actuators, and sensors in an agent.</p>
-<h3>STEP 4:Implementing the AI agent:</h3>
+<h3>STEP 4: Implementing the AI agent</h3>
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
-<h3>STEP 5:</h3>
+<h3>STEP 5: Performance measurement</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
 <h3>PROGRAM</h3>
@@ -86,4 +83,3 @@ class MedicinePrescribingAgent:
 
 <h3>RESULT</h3>
 Thus , an AI Agent is developed with PEAS description.
-
